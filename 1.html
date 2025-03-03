@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Merva Life Sciences Pvt Ltd</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Merva Life Sciences Pvt Ltd" name="keywords">
+    <meta content="Merva Life Sciences Pvt Ltd" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .carousel_image {
+            /* padding: 1rem 0rem; */
+        }
+
+        .carousel_image>img {
+            object-fit: cover;
+        }
+
+        .carousel_image>img {
+            height: 150px !important;
+            width: 150px !important;
+            border-radius: 50%;
+            border: 2px solid rgb(228, 228, 228);
+            transform: translateY(0px);
+            transition: 0.4s;
+        }
+
+        .carousel_image:hover img {
+            transform: translateY(-10px);
+
+        }
+
+        .cards_animation {
+            transition: 0.3s;
+            border: 1px solid transparent;
+            transform: translateY(0px);
+
+        }
+
+        .cards_animation:hover {
+            transform: translateY(-20px);
+
+        }
+
+        .pro_box {
+            height: 250px;
+            width: 100%;
+            border: 2px solid red;
+            overflow: hidden;
+        }
+
+        .pro_box>img {
+            transition: 0.3s;
+            transform: translateY(-10px);
+
+        }
+
+        .cards_animation:hover .pro_box>img {
+            transform: translateY(-10px);
+
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Topbar Start -->
+
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-decoration-none text-body pe-3" href=""><b class="text-dark">WHO-GMP Certified,
+                                CGMP, ISO9001-2015,
+                                Fssai</b></a>
+
+
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-body ps-2" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="image/logo/logo.png" height="100px" width="100px" alt="Merva Life Sciences Pvt Ltd">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link    ">Home</a>
+
+                        <div class="nav-item    dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Company Profile</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item">About Us </a>
+                                <a href="detail.html" class="dropdown-item">Brief History and Management</a>
+                                <a href="team.html" class="dropdown-item">Mission and Vision</a>
+                                <a href="testimonial.html" class="dropdown-item">Director’s Message</a>
+
+                            </div>
+                        </div>
+                        <div class="nav-item  dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Infrastructure</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item">Manufacturing Facility</a>
+                                <a href="detail.html" class="dropdown-item">Quality</a>
+                                <a href="team.html" class="dropdown-item">Research and Development</a>
+                                <a href="testimonial.html" class="dropdown-item">Corporate Governance</a>
+
+                            </div>
+                        </div>
+                        <div class="nav-item  dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Strengths</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item">Business Model</a>
+                                <a href="detail.html" class="dropdown-item">Delivery & Commitments</a>
+                                <a href="team.html" class="dropdown-item">Our Presence</a>
+                                <a href="testimonial.html" class="dropdown-item">Certifications</a>
+
+                            </div>
+                        </div>
+                        <div class="nav-item  dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="pdf/CAPSULES.pdf" class="dropdown-item text-capitalize">antibiotics all range
+                                    tablets</a>
+                                <a href="pdf/VERTINARY POWDER.pdf" class="dropdown-item text-capitalize">anti diabetic
+                                    all range</a>
+                                <a href="team.html" class="dropdown-item text-capitalize">anti malarial all range</a>
+                                <a href="testimonial.html" class="dropdown-item text-capitalize">gummies</a>
+                                <a href="testimonial.html" class="dropdown-item text-capitalize">veterinary segments
+                                    (boles/injection)</a>
+                                <a href="testimonial.html" class="dropdown-item text-capitalize">nutraceuticals</a>
+
+                            </div>
+                        </div>
+                        <div class="nav-item  dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Gallery</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item text-capitalize">General Gallery</a>
+                                <a href="detail.html" class="dropdown-item text-capitalize">Product Gallery</a>
+
+
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <div class="about-bg"
+        style="background-image: url('image/banner/product.jpg');height: 300px;width: 100%;object-fit: cover;background-size: cover;">
+    </div>
+    <section class="my-5">
+       <div class="container">
+        <div class="row my-5 justify-content-center">
+            <div class="col-lg-10">
+                <h4 class="d-inline-block text-capitalize border-bottom border-1 py-2  border-primary ">antibiotics all range tablets (Capsule)</h4>
+        
+                <table class="my-4 table table-bordered">
+                    <thead>
+                        <tr>
+                            <td class="text-primary fw-bold">S. No.</td>
+                            <td class="text-primary fw-bold">Formulations</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Amoxycillin 250 mg Capsule</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Amoxycillin 500mg Capsule </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Amoxycillin 250mg + Cloxacillin 250mg + Lactic Acid Bacillus 60ms Capsules </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Amoxycillin 250mg + Lactic Acid Bacillus 60ms Capsules </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Doxycycline 100mg + Lactic Acid Bacillus 100ms Capsules </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td> Oseltamivir Phosphate 30mg Capsule </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td> Oseltamivir Phosphate 75mg Capsule  </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>  Oseltamivir Phosphate 75mg  </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>  Oseltamivir Phosphate 30mg Capsule  </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row my-5 justify-content-center">
+            <div class="col-lg-10">
+                <h4 class="d-inline-block text-capitalize border-bottom border-1 py-2  border-primary ">antibiotics all range   (Injection)</h4>
+        
+                <table class="my-4 table table-bordered">
+                    <thead>
+                        <tr>
+                            <td class="text-primary fw-bold">S. No.</td>
+                            <td class="text-primary fw-bold">Formulations</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Amikacin Sulphate 250mg Injection</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Amikacin Sulphate 100mg Injection</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Amikacin Sulphate 500 mg Injection </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Amoxycillin 1000mg + Potassium Clavulante 200mg Injection  </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Amoxycillin 500mg + Potassium Clavulanate 100mg Injection</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td> Amoxycillin Sodium 1gm + Potassium Clavulanate 0.2gm Injection 
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td> Ampicillin 1gm + Tazobactam 125mg Injection  </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>  Azithromycin 500mg Injection  </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td> Aztreonam 1gm Injection  </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       </div>
+    </section>
+    <div class="row my-5 justify-content-center">
+        <div class="col-lg-10">
+            <h4 class="d-inline-block text-capitalize border-bottom border-1 py-2  border-primary ">Antibiotics All Range (Injection)</h4>
+    
+            <table class="my-4 table table-bordered">
+                <thead>
+                    <tr>
+                        <td class="text-primary fw-bold">S. No.</td>
+                        <td class="text-primary fw-bold">Formulations</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Aztreonam 1gm Injection</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cefepime 1gm + Sulbactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Cefepime 1gm + Tazobactam 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Cefepime 1gm + Tazobactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Cefepime 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Cefoperazone 1000mg + Sulbactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Cefoperazone 1000mg + Sulbactam Sodium 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Cefoperazone 1000mg + Tazobactam 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Cefoperazone 1000mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Cefoperazone 2000mg + Tazobactam 250mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Cefoperazone 250mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Cefoperazone 500mg + Sulbactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Cefotaxime Sodium 1000mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Cefotaxime Sodium 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Ceftazidime 1000mg + Tazobactam 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Ceftazidime 1000mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Ceftazidime 2000mg + Sulbactam 1000mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Ceftizoxime 1000mg + Tazobactam 250mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>Ceftizoxime 1000mg + Tazobactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Ceftriaxone 1000mg + Sulbactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>Ceftriaxone 125mg + Sulbactam 62.5mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>Ceftriaxone 1gm + Tazobactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>Ceftriaxone 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>Ceftriaxone 1000mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>Ceftriaxone Sodium 1000mg + Tazobactam 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>Ceftriaxone Sodium 1000mg + Sulbactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>Ceftriaxone Sodium 1000mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>Ceftriaxone Sodium 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>Ceftriaxone Sodium 250mg + Sulbactam Sodium 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td>Ceftriaxone Sodium 250mg + Sulbactam Sodium 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td>Ceftriaxone Sodium 250mg + Tazobactam Sodium 31.25mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>32</td>
+                        <td>Ceftriaxone Sodium 500mg + Tazobactam 62.5mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>33</td>
+                        <td>Ceftriaxone Sodium 500mg + Sulbactam 250mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>34</td>
+                        <td>Ceftriaxone Sodium 250mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>35</td>
+                        <td>Ceftriaxone Sodium 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>36</td>
+                        <td>Cefuroxime 750mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>37</td>
+                        <td>Cefuroxime 1500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>38</td>
+                        <td>Clindamycin Phosphate 150mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>39</td>
+                        <td>Etofylline 84.7mg + Theophylline 25.3mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>40</td>
+                        <td>Gentamicin Sulphate 40mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>41</td>
+                        <td>Gentamicin Sulphate 80mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>42</td>
+                        <td>Granisetron 1mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>43</td>
+                        <td>Imipenem 500mg + Cilastatin 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>44</td>
+                        <td>Kanamycin 1gm Injection</td>
+                    </tr>
+                    <tr>
+                        <td>45</td>
+                        <td>Meropenam 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>46</td>
+                        <td>Meropenam 1gm + Sulbactam 0.5gm Injection</td>
+                    </tr>
+                    <tr>
+                        <td>47</td>
+                        <td>Meropenam 1gm + Tazobactam 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>48</td>
+                        <td>Meropenam For 1gm Injection</td>
+                    </tr>
+                    <tr>
+                        <td>49</td>
+                        <td>Meropenem 1000mg + Sulbactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td>Meropenem 1gm + Tazobactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>51</td>
+                        <td>Meropenem 500mg + Tazobactam 250mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>52</td>
+                        <td>Meropenem 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>53</td>
+                        <td>Meropenem 1000mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>54</td>
+                        <td>Moxifloxacin Hydrochloride 0.05% + Prednisolone Acetate 1.00% + Benzalkunium Chloride 0.02% Injection</td>
+                    </tr>
+                    <tr>
+                        <td>55</td>
+                        <td>Ondansetron HCl 2mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>56</td>
+                        <td>Piperacillin 4000mg + Tazobactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>57</td>
+                        <td>Piperacillin Sodium 1000mg + Tazobactam 125mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>58</td>
+                        <td>Piperacillin Sodium 4000mg + Tazobactam 500mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>59</td>
+                        <td>Sodium Valproate 100mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>60</td>
+                        <td>Sodium Valproate 200mg Injection</td>
+                    </tr>
+                    <tr>
+                        <td>61</td>
+                        <td>Vancomycin Hydrochloride 500mg Injection</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Team End -->
+    <!-- Footer Start -->
+    <div class="container-fluid   mt-5 py-5" style="background-color: #f8f5f4;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-5">
+                    <div class="row">
+                        <div class="col-lg-6 my-3">
+                            <h4 class=" ">Factory</h4>
+                            <p> 59/1 Devidattam Paramasamy Devar Nagar
+                                New Natham Road Narayanapuram
+                                Madurai-14 ,
+                                Tamil Nadu ,
+                                India-625014</p>
+                        </div>
+                        <div class="col-lg-6 my-3">
+                            <h4 class=" ">Office</h4>
+                            <p>Plot No.232, JLPL Ind. Area Sector 82, Mohali- 140308, Punjab</p>
+                        </div>
+                        <div class="col-lg-12 my-3">
+                            <h4 class=" ">Reach Us On</h4>
+                            <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i> +91 8122456586 </p>
+                            <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i> For PCD Brands : +91
+                                9385639517 </p>
+                            <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i> For Third Party
+                                Manufacturing : +91 9385640517 </p>
+                            <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i> Consult Us : +91
+                                7010981291 </p>
+                            <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>mervaexport@gmail.com</p>
+                            <div class="d-flex">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7   ">
+                    <h4 class="d-inline-block   mt-3 ">
+                        Get In Touch</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4013074.29019782!2d75.64876363845956!3d10.809943625452718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0x559475cc463361f0!2sTamil%20Nadu!5e0!3m2!1sen!2sin!4v1741000482264!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-primary" href="#">Merva Life Sciences Pvt Ltd</a>. All
+                        Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a class="text-primary" target="_blank"
+                            href="https://web2export.com">web2export.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
